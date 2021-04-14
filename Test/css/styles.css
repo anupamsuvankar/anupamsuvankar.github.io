@@ -12,15 +12,15 @@ body{
 }
 
 
-.cont{
-  padding: 3% 15%;
+.container{
+  padding: 3% 15% 3% 0;
 }
 
 .head{
   font-family: "Montserrat-Black";
   font-size: 5rem;
   line-height: 1.5;
-  font-weight: bold;
+  font-weight: 900;
   margin-bottom: 50px;
 }
 
@@ -32,7 +32,7 @@ body{
 
 .navbar-brand{
   font-family: "Ubuntu";
-  font-size: 2.5rem;
+  font-size: 2.5rem !important;
   font-weight: bold;
 }
 
@@ -47,7 +47,7 @@ body{
 
 /* Tittle image */
 
-.tittle-image {
+.tittle-image{
   width: 50%;
   transform: rotate(25deg);
 }
