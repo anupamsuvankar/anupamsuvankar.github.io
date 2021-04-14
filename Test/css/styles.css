@@ -71,5 +71,28 @@ body{
 
 .email{
   color: #fff;
-  
+
+}
+
+/* Download Page */
+
+.download{
+  background-color: #ff4c69 !important;
+}
+
+.download-h1{
+  font-family: "Montserrat-Thin";
+  margin-top: 100px;
+}
+
+.download-h2{
+  font-family: "Montserrat-Thin";
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/* Pricing page */
+
+.pricing{
+  background-color: #ff4c69 !important;
 }
