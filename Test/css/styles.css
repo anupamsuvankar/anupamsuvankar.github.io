@@ -14,10 +14,11 @@ body{
 
 .container{
   padding: 3% 15% 3% 0;
+  padding-bottom: 0;
 }
 
 .head{
-  font-family: "Montserrat-Black";
+  font-family: "Montserrat-Black" !important;
   font-size: 5rem;
   line-height: 1.5;
   font-weight: 900;
@@ -50,4 +51,5 @@ body{
 .tittle-image{
   width: 50%;
   transform: rotate(25deg);
+  margin-left: 150px;
 }
