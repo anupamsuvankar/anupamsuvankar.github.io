@@ -9,6 +9,7 @@ body{
 
 .row{
   padding-top: 4.5rem;
+  padding-bottom: 2rem;
 }
 
 
@@ -58,27 +59,76 @@ body{
   margin-left: 150px;
 }
 
+/* Feature Section */
+
+#features{
+  padding: 7% 15%;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+.fh3{
+  font-family: "Montserrat-Bold";
+  font-weight: 700;
+  margin-top: 1rem;
+}
+
+.icon{
+  color: #ef8172;
+}
+
+.icon:hover{
+  color: #ff4c69;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+/*Testimonials Section*/
+
+#testimonials{
+  text-align: center;
+  background: #ef8172;
+  color: #fff;
+}
+
+.th2{
+  font-family: "Montserrat-Bold";
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.timg{
+  width: 20%;
+  border-radius: 100%;
+  margin: 5%;
+}
+
+.carousel-item{
+padding: 7% 15%;
+}
 
 /* contact page */
 
-.contact{
-  background-color: #ff4c69 !important;
-}
 
 .contact-h1{
   margin-top: 100px;
 }
 
 .email{
-  color: #fff;
+  color: #968c83;
+}
 
+.email:hover{
+  color: #555555;
 }
 
 /* Download Page */
-
-.download{
-  background-color: #ff4c69 !important;
-}
 
 .download-h1{
   font-family: "Montserrat-Thin";
@@ -91,8 +141,24 @@ body{
   margin-bottom: 100px;
 }
 
+.txt{
+  padding: 7% 15%;
+}
+
 /* Pricing page */
 
-.pricing{
+.A1{
+  color: blue;
+}
+
+/* sub d page */
+
+.sub-d{
   background-color: #ff4c69 !important;
+}
+
+.dimg{
+  height: 20%;
+  width: auto;
+  margin:10px;
 }
