@@ -113,6 +113,17 @@ p{
 padding: 7% 15%;
 }
 
+/* pricing section */
+
+#pricing{
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.pricing-col{
+  padding: 3% 2%;
+}
+
 /* contact page */
 
 
