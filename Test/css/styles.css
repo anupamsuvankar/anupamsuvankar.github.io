@@ -14,14 +14,14 @@ body{
 
 
 .container{
-  padding: 3% 15% 3% 0;
-  padding-bottom: 0;
+  padding: 3% 15% 7%;
+  /* padding-bottom: 30; */
 }
 
 .head{
-  font-family: "Montserrat-Black" !important;
-  font-size: 5rem;
-  line-height: 1.5;
+  font-family: sans-serif !important;
+  font-size: 4.3rem;
+  line-height: 1.7;
   font-weight: 900;
   margin-bottom: 50px;
 }
@@ -38,7 +38,7 @@ body{
 
 .navbar-brand{
   font-family: "Ubuntu";
-  font-size: 2.5rem !important;
+  font-size: 2.2rem !important;
   font-weight: bold;
 }
 
@@ -54,15 +54,21 @@ body{
 /* Tittle image */
 
 .tittle-image{
-  width: 50%;
+  width: 60%;
   transform: rotate(25deg);
-  margin-left: 150px;
+  margin-top: 110px;
+  /* margin-left: 125px; */
+  right: 20%;
+  position: absolute;
 }
 
 /* Feature Section */
 
 #features{
+  background-color: #fff;
   padding: 7% 15%;
+  position: relative;
+  /* z-index: 1; */
 }
 
 .feature-box{
@@ -172,4 +178,15 @@ padding: 7% 15%;
   height: 20%;
   width: auto;
   margin:10px;
+}
+
+
+
+/* Media query */
+
+@media (max-width: 1200 px) {
+  .tittle-image{
+    position: static !important;
+    transform: rotate(0) !important;
+  }
 }
