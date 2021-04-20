@@ -158,62 +158,8 @@ padding: 7% 15%;
 /* ** */
 
 .top{
-  position: absolute;
-  margin-right: 10px;
-  width: 40%;
+text-align: right;
 }
-
-/* contact page */
-
-
-.contact-h1{
-  margin-top: 100px;
-}
-
-.email{
-  color: #968c83;
-}
-
-.email:hover{
-  color: #555555;
-}
-
-/* Download Page */
-
-.download-h1{
-  font-family: "Montserrat-Thin";
-  margin-top: 100px;
-}
-
-.download-h2{
-  font-family: "Montserrat-Thin";
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
-
-.txt{
-  padding: 7% 15%;
-}
-
-/* Pricing page */
-
-.A1{
-  color: blue;
-}
-
-/* sub d page */
-
-.sub-d{
-  background-color: #ff4c69 !important;
-}
-
-.dimg{
-  height: 20%;
-  width: auto;
-  margin:10px;
-}
-
-
 
 /* Media query for tablet only*/
 
